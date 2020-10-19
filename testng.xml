@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/home/ubuntu/Desktop/sonia/projects/JavaPrograms">
+        <classes>
+            <class name="org.example.CheckNumberTest">
+                <methods>
+                    <include name="evenNumber"/>
+                    <include name="oddNumber"/>
+                </methods>
+            </class>
+            <class name="org.example.TestCase1">
+                <methods>
+                    <include name="test1"/>
+                    <include name="test2"/>
+                    <include name="test3"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
