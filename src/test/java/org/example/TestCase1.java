@@ -14,8 +14,8 @@ public class TestCase1 {
     @BeforeMethod
     public void launch()
     {
-        //System.setProperty("webdriver.gecko.driver","/home/ubuntu/Desktop/sonia/projects/JavaPrograms/resources/geckodriver");
-        System.setProperty("webdriver.gecko.driver","resources/geckodriver");
+        System.setProperty("webdriver.gecko.driver","/home/ubuntu/Desktop/sonia/projects/JavaPrograms/resources/geckodriver");
+        //System.setProperty("webdriver.gecko.driver","resources/geckodriver");
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
