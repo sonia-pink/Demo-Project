@@ -18,6 +18,7 @@ public class TestCase1 {
         //System.setProperty("webdriver.gecko.driver","resources/geckodriver");
         driver = new FirefoxDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        System.out.println("Made some changes ");
     }
 
     @Test
