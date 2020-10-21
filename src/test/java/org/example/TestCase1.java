@@ -26,6 +26,7 @@ public class TestCase1 {
     {
         driver.navigate().to("https://www.google.com/");
         System.out.println("Title1 " + driver.getTitle());
+        System.out.println("Changes made after adding branch in git");
     }
     @Test
     public void test2()
